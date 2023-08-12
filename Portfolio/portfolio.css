@@ -1,0 +1,213 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 5px;
+}
+header{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left:20px ;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0,0.9);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.menu a{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(165, 68, 127);
+}
+.menu a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+b{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+#home{
+
+    min-height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+.title p{
+    font-size: 35px;
+    padding-left: 20px;
+}
+.skills{
+    color: palevioletred;
+    display: inline-block;
+}
+.skills:hover{
+    transform: scale(1.04);
+}
+img{
+    height: 35%;
+    width: 80%;
+    border-radius: 5px;
+}
+strong{
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+}
+#about{
+    min-height:40% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 70px;
+    align-items: center;
+    
+}
+.aboutme{
+    width: 50%;
+    font-size: 22px;
+    line-height: 35px;
+    padding: 10px;
+    box-shadow: 7px 7px 10px 0px   rgb(224, 134, 164) ;
+    border-radius: 10px;
+
+}
+#skills{
+    min-height: 40vh;
+    width: 70%;
+    box-shadow: 7px 7px 10px 0px    rgb(224, 134, 164);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: center;
+}
+tr{
+    height: 7vh;
+}
+td{
+    width: 30vh;
+}
+label{
+    font-size: 3.5vh;
+}
+input{
+    width: 30vh;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 55vh;
+    box-shadow: 7px 7px 10px 0px   rgb(224, 134, 164);
+    border-radius: 10px;
+    row-gap: 10px;
+    align-self: center;
+    width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 45%;
+    min-height: 30vh;
+    box-shadow: 4px 4px 5px 0px   rgb(211, 207, 208);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    min-height: 35vh;
+    width: 60%;
+    box-shadow: 7px 7px 10px 0px   rgb(224, 134, 164);
+    border-radius: 10px;
+    align-self: center;
+    padding: 30px 30px 0px 30px;
+
+}
+#resume p{
+    font-size: 22px;
+    font-style: italic;
+}
+button{
+    height: 5vh;
+    width: 17vh;
+    text-align: center;
+    align-self: center;
+    background-color: rgb(224, 134, 164) ;
+    border: 2px solid white;
+    font-size: 20px;
+    font-style: bolder;
+}
+button :hover{
+    transform: scale(1.2);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    display: inline-block;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    min-height: 35vh;
+    width: 40%;
+    box-shadow: 7px 7px 10px 0px   rgb(224, 134, 164);
+    border-radius: 10px;
+    align-self: center;
+    padding: 30px 30px 0px 30px;
+}
+.references{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 150px;
+}
+.references img{
+    height: 50%;
+    width: 30%;
+    align-self: center;
+}
+footer{
+    text-align: right;
+    font-size: 20px;
+    padding: 20px;
+}
